@@ -1,0 +1,209 @@
+    /*logo X*/
+    
+    #logo {
+        width: 20%;
+        height: 150%;
+        float: left;
+        margin: -3.5%;
+    }
+    /*chu X-tech*/
+    
+    #x-tech {
+        display: inline;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    /*chu landing*/
+    
+    #landing {
+        display: inline;
+        color: gray;
+        font-size: 25px;
+    }
+    /*chu call*/
+    
+    #call {
+        display: inline;
+        font-weight: bold;
+        font-size: 25px;
+        float: right;
+        margin-right: 15%;
+    }
+    /*sdt*/
+    
+    #phone {
+        display: inline;
+        font-style: normal;
+        font-size: 25px;
+        float: right;
+        margin-left: -14%;
+        color: gray;
+    }
+    /*noi dung chinh trang web*/
+    
+    #title {
+        display: grid;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    /*hinh nen to dau trang*/
+    
+    #image01 {
+        display: block;
+        height: 650px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*nut bam*/
+    
+    .btn {
+        display: block;
+        background-color: rgb(132, 203, 247);
+        border-radius: 95px;
+        font-size: 25px;
+        width: 100%;
+        margin-top: 1.5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 7%;
+    }
+    /*chinh phong chu lon*/
+    
+    .big_size {
+        font-size: 27px;
+        font-weight: bold;
+    }
+    /*chinh phong chu nho*/
+    
+    .small_size {
+        font-size: 15px;
+    }
+    /*icon su dung cho 6 hinh*/
+    
+    .icon {
+        width: 150px;
+        float: left;
+    }
+    /*can chinh cho 6 noi dung ke 6 icon*/
+    
+    .align {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    /*Or check out the features*/
+    
+    .word_next_button {
+        float: left;
+        color: rgb(66, 120, 219);
+        font-style: italic;
+        font-size: 24px;
+        margin-top: 3%;
+    }
+    /*See what our customers are saying..*/
+    
+    #see_what_our {
+        color: rgb(66, 120, 219);
+        font-size: 24px;
+        margin-top: 3%;
+        font-style: italic;
+        margin-left: 1%;
+    }
+    /*khung*/
+    
+    .arrow-div {
+        margin-left: 1%;
+        margin-right: 1%;
+        position: relative;
+        background: #f1f1f1;
+        border: 5px solid #DDDDDD;
+        padding: 25px 25px 15px 25px;
+    }
+    
+    .arrow-div:after,
+    .arrow-div:before {
+        top: 100%;
+        left: 97%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    
+    .arrow-div:after {
+        border-color: rgba(241, 241, 241, 0);
+        border-top-color: #f1f1f1;
+        border-width: 21px;
+        margin-left: -21px;
+    }
+    
+    .arrow-div:before {
+        border-color: rgba(221, 221, 221, 0);
+        border-top-color: #DDDDDD;
+        border-width: 26px;
+        margin-left: -26px;
+    }
+    /*canh doan chu trong khung*/
+    
+    #canhdoan {
+        display: block;
+        text-align: center;
+    }
+    /*chu Steve Job, Apple*/
+    
+    #Steve_Job {
+        text-align: right;
+        margin-right: 5%;
+        margin-top: 0.5%;
+    }
+    /*hinh anh mui ten*/
+    
+    #muiten02 {
+        float: left;
+        margin-top: -5%;
+        margin-left: 3%;
+    }
+    /*background cua row 4 column*/
+    
+    .background01 {
+        background-color: grey;
+        padding-left: 2%;
+    }
+    /*hinh anh map*/
+    
+    #map {
+        width: 50%
+    }
+    /*button css*/
+    
+    .fa {
+        color: black;
+        font-size: 20px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .fa:hover {
+        text-decoration: none;
+        color: black;
+        opacity: 0.4;
+    }
+    /*footer*/
+    
+    footer {
+        margin: none;
+        padding: none;
+        display: grid;
+        justify-content: space-between;
+    }
+    
+    .background02 {
+        background-color: dimgray;
+        padding-left: 1%;
+        padding-right: 1.5%;
+    }
